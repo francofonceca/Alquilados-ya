@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Alquilados Ya! Tu alquiler en un Click</title>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="stylesheet" href="js/materialize.js">
+<link rel="stylesheet" href="css/materialize.css">
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+  
+  <ul class="left ">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+	  var elems = document.querySelectorAll('.dropdown-trigger');
+	  var instances = M.Dropdown.init(elems, options);
+	});
+</script>
+</body>
+</html>
